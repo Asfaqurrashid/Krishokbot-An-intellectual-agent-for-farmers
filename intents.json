@@ -1,0 +1,868 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there",
+          "How are you",
+          "how r you",
+          "how are u",
+          "Is anyone there?",
+          "Hey",
+          "Hola",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hello, thanks for asking, how can i help you?, Please describe the specific symptoms or disease name of the rice plant",
+          "Good to see you again, Please describe the specific symtoms or disease name of the rice plant",
+          "Hi there, how can I help?, Please describe the specific symtoms or disease name of the rice plant"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye",
+          "See you later",
+          "Goodbye",
+          "Nice chatting to you, bye",
+          "Till next time"
+        ],
+        "responses": [
+          "See you!",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure"
+        ]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": [" "],
+        "responses": [
+          "Sorry, can't understand you",
+          "Please give me more info",
+          "Not sure I understand"
+        ]
+      },
+      {
+        "tag": "stem_borer",
+        "patterns": [
+          "majra insects",
+          "mejra insects",
+          "white rice",
+          "mazra insects",
+          "white panicles on the rice",
+          "Mazra moths",
+          "seeing so many mazra moths. what to do?",
+          "stem borer",
+          "stem_borer",
+          "yellow stem borer",
+          "How to control rice yellow stem borer?",
+          "Ways to control stem borer in rice",
+          "Seeing Deadhearts, Dead tillers in rice plant. What to do?",
+          "Deadhearts or Dead tillers can be easily pulled from the base",
+          "Whiteheads during reproductive stage where the emerging panicles are whitish and unfilled or empty",
+          "White heads",
+          "white heads on the rice",
+          "Seeing whiteheads on the rice plant. what to do?",
+          "Tiny holes on the stems and tillers",
+          "seeing tiny holes on the stem. what to do?",
+          "seeing tiny holes on the tillers. please suggest an advice",
+          "Frass or fecal matters inside the damaged stems",
+          "Stems can be pulled and dissected for larvae and pupae for confirmation of stem borer damage",
+          "prevention from stem borer",
+          "how to save rice plant from stem borer",
+          "how to control stem borer",
+          "seeing white heads in the rice. what to do?",
+          "After the arrival of the panicles, if the stem borer insects damage it, the whole pinicles dries up",
+          "Worms, their eating patterns and feces are found in the stems",
+          "Treatment of plant white heads",
+          "treatment of the rice plant borer on stem",
+          "finding cure for the rice dead tillers",
+          "Recommend some pesticies for stem borer",
+          "Yellow stem borer insects have a light gray coating on their eggs",
+          "seeing a lot of Mazra insect moths around the light"
+        ],
+        "responses": [
+          "The number and damage of stem borer can be greatly reduced by collecting and destroying Mazra insect moths and eggs during regular field monitoring. Moths can be destroyed by hand netting before Thor arrives.     By burying stalks in the field to allow insectivorous birds to settle down, they reduce their numbers by eating adult moths. When the prevalence of adult moths increases, the moth moths can be killed by collecting light traps 200-300 m away from the paddy field. In areas where the incidence of yellow mazara is high, if possible, the attack can be prevented by cultivating varieties of yellow mazara resistant varieties like Chandina (BR1). Apply approved pesticides (eg Diazinon 60 EC, Carbofuran 5G, Phenitrothion 50 EC etc.) if 10-15% dead dig or 5% dead sheaf is found in the paddy field",
+          "Approximately 5% of dead heads are approved thiomethoxam (20%) + chloraniliprol (20%) national pesticide (e.g. Virtako 1.5 gm) or Cartopic national pesticide (e.g. Cartop or Santop 24 gm) or Fipranil national pesticide (e.g. Regent or s). 10-15 ml) Mix in 10 liters of water and spray 2-3 times in 10 consecutive days"
+        ]
+      },
+      {
+        "tag": "rice_hispa",
+        "patterns": [
+          "rice hispa",
+          "pamri insects",
+          "seeing rice hispa in the field",
+          "how to prevent rice hispa",
+          "pamri insects in the rice field. what to do?",
+          "seeing rice hispa in the field. what to do?",
+          "Pesticides for rice hispa",
+          "Treatment for pamri insects or rice hispa",
+          "scrapes the upper surface of leaf blades leaving only the lower epidermis",
+          "tunnels through the leaf tissues",
+          "scraping of the upper surface of the leaf blade leaving only the lower epidermis as white streaks parallel to the midrib",
+          "irregular translucent white patches that are parallel to the leaf veins caused by tunneling of larvae through leaf tissue causes",
+          "seeing irregular white marks parallel to the leaf veins",
+          "withering of damaged leaves",
+          "whitish and membranous leaves",
+          "whitish parallel leaf line marks",
+          "Rice field appears burnt when severely infested",
+          "elongated, clear feeding marks on the leaf",
+          "white streaks of uneaten lower epidermis between the parallel leaf veins",
+          "The affected leaves have longitudinal spots parallel to the veins",
+          "Insects make tunnels between the two leaves of the leaf and eat the green part, causing the leaves to dry out",
+          "A few vertical parallel spots can be seen on the damaged leaf as a result of scratching the green part of the leaf.",
+          "The leaves of the most damaged fields seem to dry out and burn",
+          "The upper green part of the leaf is eaten in such a way that only the lower screen is left",
+          "Many pamri insects or rice hispa can be seen in the affected fields",
+          "Insects tunnel between the two leaves of the leaf and eat the green part"
+        ],
+        "responses": [
+          "Catch the insects with handkerchiefs or towels and kill them. By the end of the flowering period, 85-92 percent of Pamri insects can be killed by pruning 2-3 cm (about 1 inch) above the base of the leaves and subsequent infestation can be prevented. Apply approved pesticides if 35% of the leaves are damaged or there are 4 adult insects per bunch of paddy",
+          "A cultural control method that is recommended for the rice hispa is to avoid over fertilizing the field. Close plant spacing results in greater leaf densities that can tolerate higher hispa numbers. To prevent egg laying of the pests, the shoot tips can be cut. Clipping and burying shoots in the mud can reduce grub populations by 75−92%",
+          "If 35% of the soil is damaged then 4 adult insects per bunch or 5 insects per bunch if chlorpyrifos national pesticide (such as Citic or Periphos lithal 20 ml) or Cartop national insecticide (Jemon Kutrup or Cartop lit forwatap 10 gm) in water after 2 days. -Spray 3 times in the afternoon"
+
+        ]
+      },
+      {
+        "tag": "brown_planthopper",
+        "patterns": [
+          "current insect",
+          "brown planthopper",
+          "plant hopper",
+          "how to prevent plant hopper",
+          "preventing planthopper",
+          "seeing plant hopper in the field. what to do?",
+          "tell me how to prevent plant hopper in rice field",
+          "Paddy sits at the base of the tree and absorbs the sap or fruits and dies as a result of the burning color of the tree",
+          "Infected trees turn yellow at first and then dry out and die",
+          "cause hopper burn in the field",
+          "hopperburn",
+          "High population of planthoppers cause leaves to initially turn orange-yellow before becoming brown and dry and this is a condition called hopperburn that kills the plant",
+          "crescent-shaped white eggs inserted into the midrib or leaf sheath",
+          "white to brown nymphs",
+          "brown or white adults feeding near the base of tillers",
+          "hopperburn or yellowing, browning and drying of plant",
+          "ovipositional marks exposing the plant to fungal and bacterial infections",
+          "presence of honeydew and sooty molds in the bases of areas infected",
+          "plants with ragged stunt or grassy stunt virus disease",
+          " presence of sooty molds at the base of the plant"
+        ],
+        "responses": [
+          "1. Arrange for light circulation by cutting the distribution in the affected land. 2. Removal of stagnant water. 3. Avoid over application of urea fertilizer in fertile lands. 4. Cultivation of brown grasshopper resistant varieties such as: Brie Paddy 35 Cultivation. 5. If there is at least one spider in 50% of the trees in the field, do not apply pesticides. . Approved pesticides should be used in 50% of paddy plants if 2-4 laying female insects or 10 young insects are found in each bunch. Such as: Isoprocarb group pesticides such as: Mipsin or Sapsin 2.8 g / l. Spray mixed with water. (5 g of land can be sprayed by mixing 28 gm of mipsin or sapsin in 10 liters of water.) Chlorpyrifos group pesticides such as: Classic 2 ml / l. Sprayed at the base of the tree mixed with water at the rate of 6. Be sure to cut the billy in the field and spray at the base of the tree",
+          "In case of most adult female insects with 4 eggs or 10 young almond grasshoppers or both, spray with Isoprocarb pesticides (e.g. 30 gms of Mipsin or Sapsin 30 gm) in 10 liters of water 2-3 times in the afternoon after 10 days"
+        ]
+      },
+      {
+        "tag": "gall_midge",
+        "patterns": [
+          "rice gall midge",
+          "gall midge",
+          "how to prevent gall midge",
+          "preventing gall midge in the rice field",
+          "silver shoot",
+          "silvershoot",
+          "onion leaf",
+          "rice leaf looks like onion leaf",
+          "The middle leaf of the paddy plant becomes cylindrical like onion leaf",
+          "middle leaf looks like onion leaf. what to do?",
+          "The damage pattern of this insect is called onion leaf gall or tube",
+          "In the early stages of this gall or tube the color is light bright white and it is called Silver Shoot or Silver Leaf",
+          "The insect looks like a mosquito",
+          "The insect looks a lot like a mosquito, its belly is bright red",
+          "belly is bright red and looks like mosquito",
+          "sometimes called vepo insect",
+          "maggot attack on growing shoot",
+          "panicle does not come out from the top",
+          "Rice gall midge forms a tubular gall at the base of tillers",
+          "causing elongation of leaf sheaths called onion leaf or silver shoot",
+          "formation of a hollow cavity or tubular gall at the base of the infested tiller",
+          "The gall formed is a silvery white hollow tube",
+          "affected tiller inhibits growth of leaves and fails to produce panicles",
+          "deformed, wilted, and rolled leaf",
+          "elongation of leaf sheaths, also called onion leaf or silvershoot",
+          "plant stunting",
+          "elongate-tubular eggs and maggot-like larva feeding inside developing buds."
+        ],
+        "responses": [
+          "Destroy adult insect with light traps. Apply approved pesticides when 5% of the leaves are like onions",
+          "If symptoms appear on 5% of the leaves in the soil, use pesticides. If the level of infestation is high, pesticides such as Haginon or Diazinon (e.g. Serbian 60 EC 30 ml) or Cypermethrin Pesticide (e.g. Ripcord 10 EC or Master 20 ml) can be mixed in 10 liters of water and sprayed 2-3 times in 10 consecutive days",
+          "1.Use resistant varieties. Contact your local agriculture office for up-to-date lists of varieties available 2. Plow ratoon of the previous crop and remove all off-season plant hosts "
+        ]
+      },
+      {
+        "tag": "whorl_maggot",
+        "patterns": [
+          "whorl maggot",
+          "how to prevent whorl maggot",
+          "ways of preventing whorl maggot in rice field",
+          "protecting rice field from whorl maggot",
+          "seeing whorl maggot. what to do?",
+          "The moth starts eating from the side of the leaf before it is completely out of the middle leaf of the rice plant",
+          "attack on early leaf of the rice plant",
+          "Before the young leaves of the paddy are well opened, this insect starts eating from the side of the leaves",
+          "The edges of the affected leaves become transparent and white",
+          "panicles are less and rice may take extra time to ripen",
+          "In all fields where there is standing water almost all the time, this insect attacks more",
+          "whorl maggots causes yellow spots, white or transparent patches, and pinholes",
+          "yellow spots, white or transparent pathes, and pinholes",
+          "white or transparent patches",
+          "pinholes",
+          "damaged leaves easily break from the wind",
+          "somewhat distorted leaves",
+          "clear or yellow spots on inner margins of emerging leaves",
+          "stunting",
+          "few tillers"
+
+        ],
+        "responses": [
+          "Using insecticides is not recommended for the rice whorl maggot control because the rice plant can compensate for the damage.Removal of standing water from the affected land. Approved pesticides if 25% of the paddy leaves are damaged."
+        ]
+      },
+      {
+        "tag": "case_worm",
+        "patterns": [
+          "rice case worm",
+          "how to prevent rice case worm",
+          "seeing case worm. what to do?",
+          "suggest how to protect rice from case worm",
+          "The insects eat the green part of the leaf vertically, leaving only the top layer",
+          "Long white spots and leaf tips can be seen on the leaves of infected trees as a result of picking leaves and making funnels",
+          "long white spots and leaf tips",
+          "The leaves of the affected trees are white",
+          "The top of the leaf is cut to make a funnel and stays in it",
+          "The leaves of the tree appear white in the affected field",
+          "Funnel made of cut leaves float in the air or water and accumulate on one side of the field and look as if someone has cut the leaves with scissors",
+          "Cutting off the upper part of the leaves damages the crop",
+          "Rice caseworms or case bearers cut off leaf tips to make leaf cases",
+          "cut leaves at right angles as with a pair of scissors",
+          "Leaf cases floating on water",
+          "Leaves cut at right angles as with a pair of scissors",
+          "Leaves with papery upper epidermis that were fed on",
+          "Skeletonized leaf tissues usually appear ladder-like",
+          "the ladder-like leaf tissues, cut leaves, and leaf cases attached onto leaf sheaths and floating in the water with the larvae enclosed"
+        ],
+        "responses": [
+          "1. Use of correct fertilizer application 2. Plant early and use wider spacing (30 × 20 cm) 3. Drain the field 4.Grow a ratoon 5. Use foliar treatments of carbamate insecticides; avoid pyrethroids",
+          "insects cannot survive on dry land without water. Therefore, if it is possible to keep the land dry for a few days by removing the water from the affected field, the number of these insects can be reduced and the damage can be prevented. Adult moths are killed by light traps.   Collected and collected leaves from the land and destroyed. Approved pesticides should be used in case of 25% leaf damage",
+          "1. The water of the land dries up because the funnel insects cannot survive without water. 2. Capture and kill adult moths with the help of light traps. 3. Pull the rope mixed with kerosene and throw the funnel on the ground. 4. Burying stalks in the field. 5. Preserving snails, spiders and wasps. . Approximate use of approved pesticides in case of 25% leaf damage. For example: Chlorpyrifos group pesticides like Darsban 20 EC or Pichlorx 20 EC 2 ml / l. Or Malathion group pesticides such as: Phifanon 2.4 ml / L mixed with water and sprayed. Or apply pesticides approved for these insects under other names in approved doses",
+          "If 25% of the leaves are damaged in the soil, spray Carbaryl Pesticide (e.g. Sevin 30 gm) or Malathion Pesticide (e.g. Phefanon 20 ml or Siphanon 58 EC 30 ml) in 10 liters of water 2-3 times in 10 consecutive days"
+        ]
+      },
+      {
+        "tag": "leaf_roller",
+        "patterns": [
+          "leaf roller",
+          "leaf folder",
+          "leafroller",
+          "leaffolder",
+          "rice leaf roller",
+          "how to prevent leaf roller in rice",
+          "treatment of leaf rollder or leaf folder in rice field",
+          "seeing leaf folder on the leaf . what to do?",
+          "tell ways of protecting rice plant from leaf roller",
+          "tell ways of protecting rice plant from leaf folder",
+          "The leaf bends vertically and eats the green part of the leaf, resulting in long white spots on the damaged leaf",
+          "The leaf fold vertically and eats the green part of the leaf, resultig in long white spots on the damaged leaf",
+          "fold the leaf",
+          "Too much damage can cause the leaves to burn",
+          "leaf looks like it has burned",
+          "leaf looks like burned",
+          "Diseases can be started along the edges of the leaves, especially the red line of the leaves",
+          "The leaves are folded vertically to form a tube",
+          "Leaffolder caterpillars fold a rice leaf around themselves and attach the leaf margins together with silk strands",
+          "Leaffolder fold a rice leaf around themselves and attach the leaf margins together with silk strands",
+          "longitudinal and transparent whitish streaks on damaged leave",
+          "tubular folded leaves",
+          "leaf tips sometimes fastened to the basal part of leaf",
+          "heavily infested fields appear scorched with many folded leaves",
+          "disc-shaped ovoid eggs laid singly",
+          "present fecal matter",
+          "folded leaves enclosing the feeding larvae"
+        ],
+        "responses": [
+          "1. Use resistant varieties, Contact your local agriculture office for an up-to-date list of available varieties 2. Follow rice with a different crop, or fallow period 3. Avoid ratooning 4. Flood and plow field after harvesting if possible 5. Remove grassy weeds from fields and borders 6. Reduce density of planting 7. Use balanced fertilizer rates",
+          "Adult moths are killed by light traps. Suppressing adult moths by burying stalks in the ground with the help of insectivorous birds. Approved pesticides should be used in case of 25% leaf damage",
+          "1. Collecting and destroying insect eggs or leaves in the initial stage. 2. Adult moths are killed by light traps. 3. Suppressing adult moths by burying stalks in the ground with the help of insectivorous birds. 4. Approved pesticides such as chlorpyrifos group pesticides should be used in case of 25% leaf damage. Darsban 20 EC or Pychlorx 20 EC 2 ml / l. Or Malathion group pesticides such as: Phifanon 2.4 ml / l. Spray mixed with water",
+          "In case of 25% leaf damage, mix Chlorpyrifos Pesticide (such as Darsban 20 EC or Pichlorx 20 EC 20 ml) or Malathion Pesticide (such as Phifanon 25 ml) in 10 liters of water and spray 2-3 times in the afternoon for 10 days"
+        ]
+      },
+      {
+        "tag": "swarming_caterpillar",
+        "patterns": [
+          "rice swarming caterpillar",
+          "rice cut worm",
+          "tell me how to prevent cut worm",
+          "treatment of protecting rice from swarming caterpillar or cut worm",
+          "At first, the insects eat only the leaves, but the adult worms can eat the whole leaf",
+          "This insect causes damage by cutting the sheaf of paddy or rice",
+          "cut the sheaf of rice or paddy",
+          "The leaves are cut off and eaten in such a way that the stems of the rice plant remain",
+          "Young caterpillars of cutworm eat the soft leaves of the rice plants",
+          "cutworms can consume the entire plant",
+          "cut seedlings at bases",
+          "skeletonized leaf surfaces",
+          "consumed whole rice plants",
+          "presence of cut seedlings and eaten leaves"
+        ],
+        "responses": [
+          "Keeping fields flooded may keep the population of this pest at low levels.Biological control agents of cutworm are very abundant. For example, scelionid and braconid wasps are egg parasitods and grasshoppers are predators of the pest. Fungal and polyhedrosis viruses are pathogens that attack this insect pest. Insecticides like pyrethroids, may be needed when larval populations are extremely high. As pyrethroids can also cause secondary pests, spot spraying only at high population densities may be advisable",
+          "Catch and kill the adult moth with the help of light traps. The number of these insects can be greatly reduced by cutting the stubble of the field after harvesting paddy or by cultivating the land. Their numbers can also be reduced by irrigating the affected fields with irrigation and burying stalks in the fields for birds to eat. Approved pesticides should be used in case of 25% leaf damage",
+          "If 25% of the leaves are damaged in the soil, spray Carbaryl national pesticide (e.g. Sevin 30 gm mixed in 10 liters of water) or Malathion national pesticide (such as Fifanon 20 ml or Siphanon 58 EC mixed in 30 ml per 10 liters of water) 2-3 times in 10 days"
+        ]
+      },
+      {
+        "tag": "long_horned_cricket",
+        "patterns": [
+          "rice long horned cricket",
+          "how to prevent long horned criket from rice plant",
+          "controlling long horned cricket from rice field",
+          "ways of protecting long horned cricket from rice plant",
+          "The rice leaves are eaten in such a way that only the edges and veins of the leaves are left",
+          "The leaves become brittle like windows",
+          "The edges and veins of the leaves become tangled",
+          "only leaf edges and veins remain",
+          "The leaves become brittle or tangled"
+        ],
+        "responses": [
+          "1. Killing insects with hand nets. 2. Arrange for insectivorous birds to be buried in the stalks. 3. Approved use of approved pesticides such as: Carbosulfan 400 ml / acre, Quinolphos 600 ml / acre if 25% of the paddy leaves are damaged",
+          "Quinolphos national pesticides (such as Conway / Getlax / Ecolax mixed in 25-30 ml per 10 liters of water per 5 per cent of the land) should be sprayed in the late afternoon. Care should be taken while spraying the medicine"
+        ]
+      },
+      {
+        "tag": "grass_hopper",
+        "patterns": [
+          "grass hopper",
+          "grasshopper",
+          "how to prevent grasshopper from rice field",
+          "ways of protecting grasshopper from rice field",
+          "treatment of grasshopper in rice field",
+          "locust attack",
+          "It eats from the side of rice leaves to the veins",
+          "feed on leaf margins",
+          "Feeding damage caused by short-horned grasshoppers and oriental migratory locusts result to cut out areas on leaves and cut-off panicles",
+          "feeding marks on leaves and shoots",
+          "large portions of leaf edges consumed"
+        ],
+        "responses": [
+          "Killing insects with hand nets. Take the help of insectivorous birds to bury the stalks. Approved pesticides if 25% of the paddy leaves are damaged",
+          "Mix Diazinon Pesticide (eg Serbian 60 EC 30 ml) in 10 liters of water and spray 2-3 times every 10 days"
+        ]
+      },
+      {
+        "tag": "green_semilooper",
+        "patterns" : [
+          "rice green semilooper",
+          "tell me how to prevent rice green semilooper",
+          "ways to protect green semilooper",
+          "greensemilooper",
+          "The worms move on their backs",
+          "scrape the tissues from leaf blades",
+          "feed on leaf edges to create notches",
+          "scraped leaves exposing the lower epidermis",
+          "damaged leaf edges",
+          "spherical eggs",
+          "light green larvae feeding on rice leaves"
+        ],
+        "responses": [
+          "Adult moths are caught and killed with the help of light traps. If 25% of paddy leaves are damaged, use pesticides",
+          "Semiloopers are generally managed by natural biological control agents: small trichogrammatid wasps, ichneumonid, braconid, elasmid, eulophid and chalcid wasps, and spiders"
+        ]
+      },
+      {
+        "tag" : "green_leaf_hopper",
+        "patterns" : [
+          "Rice sucks sap from tree leaves",
+          "rice sucks juice from tree leaves",
+          "rice green leafhopper",
+          "green leaf hopper",
+          "how to prevent green leaf hopper",
+          "ways of protecting rice green leafhopper",
+          "The short spreads rice, transient yellow disease, tungro and yellow beet virus",
+          "spread tungro disease",
+          "There are various black spots with bright green color",
+          "This green insect has black spots on its wings",
+          "Tungro and yellow dwarf disease spread",
+          "stunted plants and reduced vigor",
+          "reduced number of productive tillers",
+          "withering or complete plant drying",
+          "plants become yellow and short",
+          "trees become yello and short"
+        ],
+        "responses" : [
+          "Adult moths are caught and killed with the help of light traps. Spray isoprocarb pesticides (such as mipsin or sapsin 30 g in 10 liters of water) 2-3 times in the afternoon every 10 days. Do not collect seeds from infected fields",
+          "1. Kill leaf hoppers using light traps. 2. If 40-50 green leafhoppers are found in every 100 nets in the hand net, the approved pesticide can be used in the approved dose. For example: Fenthoate 400 ml / acre i.e. 20 ml in 10 liters of water at the rate of 5 per cent",
+          "Spray isoprocarb pesticides (such as mipsin or sapsin 30 g in 10 liters of water) 2-3 times in the afternoon every 10 days"
+        ]
+      },
+      {
+        "tag" : "zigzag_leaf_hopper",
+        "patterns" : [
+          "They spread viruses called gall, tungro and orange leaves and absorb leaf sap",
+          "They spread viruses called gall, tungro and orange leaves and absorb leaf juice",
+          "zig zag mark on leaf hopper wings",
+          "zig zag mark on leaf hopper",
+          "drying of leaf tips",
+          "whole leaves become orange",
+          "leaf margins become orange and curl",
+          "yellowish brown nymphs and adults sucking sap from the leaves in the upper parts and tillers near the base of the plant",
+          "tell me how to prevent zig zag leaf hopper"
+        ],
+        "responses" : [
+          "Their numbers can be greatly reduced by attracting and killing green leafhoppers and crooked leafhoppers in light traps 200-300 meters away from the paddy fields. Killing insects by hand netting. Cultivation of green leaf beetle and tungro disease resistant rice varieties. Apply approved pesticides on seedbeds and paddy fields if a green leafhopper is found per hand net and there are tungro diseased trees nearby",
+          "Apply approved pesticides on seedbeds and paddy fields if a green leafhopper is found per hand net and there are tungro diseased trees nearby"
+        ]
+      },
+      {
+        "tag" : "thrips",
+        "patterns" : [
+          "rice thrips",
+          "how to control rice trips",
+          "tell me how to prevent rice trips from rice plant",
+          "Feeding damage caused by thrips causes leaf curling and discoloration",
+          "As a result of sucking the juice, the leaves are folded vertically",
+          "The leaf spot is yellow to red",
+          "damaged leaves have silvery streaks or yellowish patches",
+          "translucent epidermis becomes visible on damaged area",
+          "leaves curled from the margin to the middle",
+          "leaf tips wither off when severely infested",
+          "unfilled grains at panicle stage",
+          "It causes sores on the leaves and absorbs the sap",
+          "cream-colored eggs on leaf tissue with upper half of eggs exposed on leaf surface yellow larvae and dark brown adults lacerate the plant tissues",
+          "leaf shows discoloration and rolling, and extensive removal of leaf tissues causes a translucent epidermis to remain"
+        ],
+        "responses" : [
+          "Applying urea topically can prevent the damage of this insect to some extent. If the land is dry, submerge it with water for a short period of time and drain the water again. If 25% of paddy leaves of the affected land are damaged, approved pesticides such as: Isoprocarb-28 gm per liter of water should be mixed and applied at the rate of 5% of land",
+          "If the infestation is severe, imidachloroprid pesticides (such as Admire or Tido 8-10 ml / 2 mouth) should be mixed in 10 liters of water and sprayed 2-3 times in 10 days"
+        ]
+      },
+      {
+        "tag" : "white_backed_plant_hopper",
+        "patterns" : [
+          "tell me how to control white backed plant hopper",
+          "rice white backed plant hopper",
+          "moths range in color from white to brown, black and white",
+          "White-backed tree grasshoppers do not spread the virus but absorb the sap and cause hopperburn",
+          "The leaves can burn",
+          "leaves look burned",
+          "suck juice from tree roots",
+          "paddy field seems to be burnt",
+          "sits at the base of the tree and eats the juice",
+          "cause hopperburn or the rice or paddy field has been burnt",
+          "attacks are more likely to occur when water accumulates in moist and shady places and lands"
+        ],
+        "responses" : [
+          "Spray isoprocarb pesticides (such as mipsin or sapsin 30 g in 10 liters of water) 2-3 times in the afternoon every 10 days",
+          "1. Using light traps 2. increasing the plant distance in land 3. removal of water form land 4. refrain from topical application of urea fertilizer in fertile lands 5. parasitic insects can be prevent if given the opportunity to increase the number of spiders"
+        ]
+      },
+      {
+        "tag" : "mealy_bug",
+        "patterns" : [
+          "rice mealy bug",
+          "mealy bug",
+          "how to prevent mealy bug from rice plant",
+          "treatment of mealy bug in paddy field",
+          "ways of protecting mealy bug from rice plant",
+          "as a result of absorbing the sap of the tree, the tree becomes shorter",
+          "If the attack is high, the sheaf of rice does not come out",
+          "If the attack is high, the panicle of rice does not come out",
+          "The trees seem to have settled in places",
+          "reddish-white, soft-bodied, wingless and have a white waxy coating on the body",
+          "the trees seem to have short in some places",
+          "The white wax looks like a large number of stems together between the trunk and the leaf shell",
+          "looks like white wax",
+          "The panicle of the tree does not come out",
+          "This results in curling of leaves and wilting of plants",
+          "wilting",
+          "plant stunting",
+          "yellowish curled leaves",
+          "damaged spots or chakdhora or soorai disease",
+          "appearance of wax covering the eggs, nymphs and adults that stick on the stem or leaf",
+          "hyaline to yellowish to pinkish eggs",
+          "crawlers or nymphs, unwinged pink female adults and winged pale yellow males removing plant sap",
+          "the white wax looks like a large number of stems together between the trunk and the leaf shell",
+          "the stalks do not come out",
+          "the panicles do not come out",
+          "the trees are short and the leaves are yellow",
+          "it seems like tree becomes short"
+        ],
+        "responses" : [
+          "If the infestation is severe, spray Phenitrothion insecticide (such as Sumithion or Folithion 20 ml per 10 liters of water) 2-3 times in 10 days"
+        ]
+      },
+      {
+        "tag" : "rice_bug",
+        "patterns" : [
+          "ghandi bug",
+          "rice bug",
+          "tell me how to prevent rice bug",
+          "treatment of protecting rice bug",
+          "Invades rice grains",
+          "When milk is produced in the grains of paddy, if it is damaged, the paddy becomes sticky",
+          "the rice becomes sticky",
+          "The rice gets low quality and the rice breaks",
+          "Gray in color and slightly slender",
+          "gray in color and slightly narrow",
+          "There are spots and stains on the paddy",
+          "spots and stains on the paddy",
+          "In case of milk in rice, the damage is more",
+          "Gandhi insects attack rice grains",
+          "attack rice grain",
+          "Rice bugs damage rice by sucking out the contents of developing grains from pre-flowering spikelets to soft dough stage, therefore causing unfilled or empty grains and discoloration. Immature and adult rice bugs both feed on rice grains",
+          "small or shriveled grains",
+          "deformed or spotty grains",
+          "empty grains",
+          "erect panicles",
+          "oval, shiny, and reddish brown eggs along midrib of leaf",
+          "slender and brown-green nymphs and adults feeding on endosperm of rice grains",
+          "offensive smell"
+        ],
+        "responses" : [
+          "If the infestation is severe, use pesticides such as Malathion (such as Phifanon or Hilthion 20 ml) or Chlorpyrifos pesticide (such as Darsban 20 ml) mixed in 10 liters of water and spray 2-3 times in 10 consecutive days",
+          "When the number of these insects increases a lot, their number decreases a lot if they are killed by placing light traps 200-300 meters away from the field. If 2-3 Gandhi insects appear in each bunch of paddy, use approved pesticides. Pesticides should be applied in the afternoon"
+        ]
+      },
+      {
+        "tag" : "army_worm",
+        "patterns" : [
+          "army worm",
+          "rice army worm",
+          "how to prevent army worm from paddy field",
+          "preventing army worm from rice plant",
+          "Insects initially cut off the side of the leaf and eat it",
+          "When the worms are big, they cut from the base of semi-ripe or ripe paddy sheaf",
+          "This insect causes damage by cutting the sheaf of paddy or rice",
+          "Armyworm feeds on rice by cutting off leaves and young seedlings at the plant's base",
+          "They can also cut off rice panicles from base",
+          "Armyworms feed on leaf tips and along leaf margins",
+          "When they eat whole leaves, they can remove them completely or leave only the midribs",
+          "The characteristic form of armyworm damage is leaf removal"
+        ],
+        "responses" : [
+          "After harvesting the paddy, the insects and pupae of this insect live in the stubble of the field or in the cracks of the soil. Therefore, after harvesting the paddy by burning the stubble or cultivating the field, the pupae and worms die and the number of these insects can be reduced overall in the next season. When the mature paddy is tilted or laid with bamboo, the attack is reduced. Drain around the field and keep it with kerosene mixed water so that insects cannot come from the infested field. In addition, the number of insects can be reduced by burying stalks in different parts of the field to facilitate irrigation and bird feeding. If 2-5 pests are found per 10 sq m in paddy field, use pesticides. However, care should be taken not to apply pesticides on ripe paddy",
+          "1. Irrigate the affected field if possible. 2. If possible, tilt the semi-ripe paddy with bamboo. 3. When the paddy is ripe, cut it quickly. 4. If an average of 1 insect per square meter is present, then Carbaryl group pesticides such as: Vitabril 28 gm per 10 liters of water should be mixed and applied at this rate for 5 percent of the land",
+          "If 25% of the leaves are damaged in the soil, spray Carbaryl national pesticide (e.g. Sevivin 30 g in 10 liters of water) or Malathion pesticide (such as Phifanon 20 ml or Siphanon 58 EC in 30 ml per 10 liters of water) 2-3 times in 10 consecutive days"
+        ]
+      },
+      {
+        "tag" : "long_horned_cricket",
+        "patterns" : [
+          "cuts off the roots of the tree, causing the tree to die",
+          "eats the new roots of the tree and the roots of the tree under the ground",
+          "Leaf edges and veins remain",
+          "The damaged leaves become brittle",
+          "They cut off the edges and veins of the leaves",
+          "rice long horned cricket",
+          "how to prevent rice long horned cricket",
+          "ways of protecting rice plant from long horned cricket"
+        ],
+        "responses" : [
+          "1. Killing insects with hand nets. 2. Arrange for insectivorous birds to be buried in the stalks. 3. Approved use of approved pesticides such as: Carbosulfan 400 ml / acre, Quinolphos 600 ml / acre if 25% of the paddy leaves are damaged",
+          "Irrigation of the field by irrigation can prevent the attack of this insect. Urchunga can be controlled by spraying Bishtop on paddy lands or aisles made from a combination of rice powder and pesticides. Granular pesticides can be used instead of toxins",
+          "Quinolphos national pesticides (such as Conway / Getlax / Ecolax mixed in 25-30 ml per 10 liters of water per 5 per cent of the land) should be sprayed in the late afternoon. Care should be taken while spraying the medicine"
+        ]
+      },
+      {
+        "tag" : "rat",
+        "patterns" : [
+          "how to prevent rat from paddy field",
+          "preventing rat from rice field",
+          "how to kill rat",
+          "tell me how to prevent rat damage in rice field",
+          "ways of protecting rice from rat"
+        ],
+        "responses" : [
+          "(A) Non-chemical suppression: 01. Dig a rat hole and beat the rat to death. 02. Pour water into the rat hole and kill the rat. 03. Arrange to kill rats with the smell of burning pepper in rat holes. 04. Intensive trap leaves: Kill rats to get different types of traps. 05. Using Glue: A type of glue used for catching rats in warehouses or indoors is usually applied on wooden boards, thick cardboard, tin, and on the road where rats move. Good results are obtained. You have to put tempting food in the middle of the board. (B) Chemical suppression: This type of poisonous rat dies within a few hours of playing once. For example: Zinc phosphide (2%) mixed with wheat. Application Strategy: Zinc phosphide blended wheat is practiced for a few days and then suddenly one day <2% zinc phosphide blended wheat is given. Problem: Poisoning shyness can occur if the rats are not removed. After eating the poison, the rat dies. Seeing this, the reluctance of the living rat to eat that poison is the shame of the poison. Suitable time to control rats: 01. Before the harvest of any crop. At this time, the number of rats in the field and their food is less, so the rats eat bisatop easily. 02. The house is open throughout the year and during the rainy season. 03. Roads and dams during monsoon (when there is water in the field). 04. The first day of discharge in deep and shallow irrigation canals. Biological control method: This method includes the technique of controlling rats with organisms. Rats are killed by different types of natural enemies like fox, beji, wild cat, snake, guisap, pecha. Therefore, proper arrangements have to be made for the reproduction of rat-eating animals"
+        ]
+      },
+      {
+        "tag" : "bacterial_leaf_blight",
+        "patterns" : [
+          "In the case of seedlings it is called decay or seedling rot Crisc and in old age it is called leaf blight disease. The outer leaves of the seedlings turn yellow and gradually dry and turn into straw color. When pressed by hand at the base of the plant, a foul-smelling substance like pus comes out",
+          "Older trees first have small watermark spots on the edges and ends of the leaves. These spots gradually enlarge and move downwards or inwards through the two ends of the leaf, the affected part fades and turns a grayish brown color which appears to be scorched or burnt",
+          "how to prevent rice blight",
+          "rice bacterial blight disease",
+          "rice leaf blight",
+          "rice bacterial leaf blight treatment",
+          "seeing bacterial blight in the rice field what to do?",
+          "preventing bacterial blight from paddy field",
+          "The lower leaves of the affected tree first bend and dry out. In this way all the leaves of the bunch can die. This condition is called debilitating disease. When the seedlings or early shoots emerge, the leaves of the tree or the whole tree fall off. Occasionally the leaves are pale yellow in attack-prone varieties. The older leaves of the tree are normally green, but the young leaves become evenly pale yellow and gradually dry out and die. Symptoms of leaf blight include first leaf margin or bluish green water-like line in the middle. The spots start from one end of the leaf, either end or any part of the wound leaf and gradually the whole leaf burns or burns and dries like straw. In invasive varieties of rice, the spots may extend to the underside of the leaf sheath. At one point the whole leaf burns or burns and dries up like straw. The disease seems to have spread to all lands and burned",
+          "The lower leaves of the affected tree first bend and dry out. In this way all the leaves of the bunch can die. This condition is called debilitating disease. When the seedlings or early shoots emerge, the leaves of the tree or the whole tree fall off. Occasionally the leaves are pale yellow in attack-prone varieties. The older leaves of the tree are normally green, but the young leaves become evenly pale yellow and gradually dry out and die. Symptoms of leaf blight include first leaf margin or bluish green water-like line in the middle. The spots start from one end of the leaf, either end or any part of the wound leaf and gradually the whole leaf burns or burns and dries like straw. In invasive varieties of rice, the spots may extend to the underside of the leaf sheath. At one point the whole leaf burns or burns and dries up like straw. The disease seems to have spread to all lands and burned",
+          "Check for wilting and yellowing of leaves, or wilting of seedlings (also called kresek) .On seedlings, infected leaves turn grayish green and roll up. As the disease progresses, the leaves turn yellow to straw-colored and wilt, leading whole seedlings to dry up and die. Kresek on seedlings may sometimes be confused with early rice stem borer damage"
+        ],
+        "responses" : [
+          "No wounds during transplanting. Do not cultivate invasive varieties. Do not use excess of urea fertilizer as required. Apply all urea in 2/3 installments without giving seedlings or kushi condition. The amount of damage will be less if the infected seedlings are removed and brought to Kushi from the surrounding trees. Apply 5/6 kg per bigha and do not use urea fertilizer immediately after the storm. 1% bordomicure can be used if required",
+          "In case of disease, apply an additional 5 kg of potash fertilizer per bigha (33 percent). When picking seedlings, care should be taken to leave less roots. In the early stages of the disease, spray potash fertilizer and 60% sulfur mixed in 60 g per 10 liters of water",
+          "BR2 (Mala), BR3 (Biplob), BR4 (Brishail), BR14, BR18, BR19 (Mars), BR21 (Niyamt), BR28 (Srabani), Bridhan 28, Bridhan 28, Bridhan 29, Bridhan 31, Bridhan 32, Bridhan 32 Cultivation of disease resistant varieties like Bridhan 36, Bridhan 40, Bridhan 41, Bridhan 42, Bridhan 44, Bridhan 45 and Bridhan 48 etc. Drying in 8-10 days depending on the soil. Dry the land and burn it in the field. Do not apply nitrogen fertilizer in the affected field. Applying 5 kg potash fertilizer per bigha in the affected field and mixing it well in the soil reduces the severity of the disease"
+        ]
+      },
+      {
+        "tag" : "bacterial_leaf_streak",
+        "patterns" : [
+          "The disease is usually confined to the leaf blade. Gradually the spots become larger and turn brown. Later, the affected paddy leaves turn completely brown",
+          "When it touches the sun, light enters through this spot and can be seen clearly. Gradually the spots become larger and reddish in color and spread to the large veins around the leaves. In invasive varieties, the rice leaves may turn completely reddish and die. When the disease is favorable, the whole field turns yellow and orange. These bacteria enter the plant through the normal pores of the wound or leaf cells. Yellow beads are more common on leaf litter than leaf blight. Rain and wind help to spread the disease",
+          "bacterial leaf streak",
+          "rice bacterial leaf streak",
+          "tell me how to prevent leaf streak",
+          "leaf red line",
+          "leaf red streak",
+          "treatment of leaf streak",
+          "ways of protecting rice or paddy field from red streak or line disease",
+          "Narrow and light spots appear parallel to the veins in the middle of the veins of the leaf blade. When it touches the sun, light enters through this spot. Gradually the spots merge together and become reddish in color",
+          "Is confined to the leaf blade. At first there are narrow and light spots in the middle of the leaf veins. When it touches the sun, light enters through this spot and can be seen clearly. The spots grow and become reddish in color and spread to the large veins around the leaves. In invasive varieties, the rice leaves may turn completely reddish and die. When the disease is favorable, the whole field turns yellow and orange. These bacteria enter the plant through the normal pores of the wound or leaf cells. Yellow beads are more common on leaf litter than leaf blight. Rain and wind help to spread the disease",
+          "Symptoms initially appear as small, water-soaked, linear lesions between leaf veins. These streaks are initially dark green and later become light brown to yellowish gray. The lesions are translucent when held against the light. Entire leaves may become brown and die when the disease is very severe. Under humid conditions, yellow droplets of bacterial ooze, which contain masses of bacterial cells, may be observed on the surface of leaves",
+          "leaf streak lesions are usually thinner than those of narrow brown spot . Narrow brown spot lesions are not translucent, nor do they produce bacterial ooze"
+        ],
+        "responses" : [
+          "50-100 gm of potash fertilizer should be mixed in 10 liters of water and sprayed on 5% of the land in the afternoon. For every 10 liters of water 40-50 g of copper oxychloride or 20 g of champion should be mixed and sprayed on 5% of the land",
+          "Burning stubble after harvest. The seeds are bactericidal if kept in water for 15 minutes at a temperature of 54 C. Spray 5 per cent of the land by mixing 4-5 gms of Kupravit or 2 gms of champignon per liter of water",
+          "Plant resistant varieties.Treat seeds with hot water.Keep fields clean — remove weed hosts and plow under rice stubble, straw, rice ratoons, and volunteer seedlings, which may be infected by the bacteria.Use balanced amounts of plant nutrients, especially nitrogen. Ensure good drainage of fields (in conventionally flooded crops) and nurseries. Drain the field during severe flood. Dry the field during the fallow period to kill the bacteria in the soil and in plant residues. affected, a copper-based fungicide applied at heading can be effective in controlling the disease",
+          "Do not collect seeds from infected land. Dilute 3 gms of bavistin in one liter of water and keep the seeds in it for one night. In order to prevent damage to the leaves by insects, insects should be killed by pesticides or other means just by looking at the soil. Dry the stalks and burn them on the ground. Disease resistant varieties like BR3 (Biplob), BR4 (Brishail), BR9 (Sufla), BR10 (Pragati), BR14 (Ghazi), BR18 (Shahibalam), BR20 (Nizami), BR21 (Niyamt), BR24 (Rahmat), To cultivate Bridhan 28, Bridhan 29, Bridhan 30, Bridhan 36, Bridhan 38, Bridhan 40, Bridhan 41, Bridhan 42 etc"
+        ]
+      },
+      {
+        "tag" : "foot_rot",
+        "patterns" : [
+          "This disease is more prevalent in rice paddy. In this disease, the leaf shell turns brown. The stems become soft and rot. Pulling on the tree, the tree comes up and smells like rotten snails",
+          "This disease is commonly seen in seedlings and seedlings. In the early stages of the tree, the leaf shells turn brown. Symptoms of the disease spread quickly to the stems, nodules and tree tops. The stems become soft and rot and a foul odor (rotten snail odor) comes out from there. When an old tree is infected, almost all the pods rot and bend or come up easily when pulled"
+          
+        ],
+        "responses" : [
+          "If the disease occurs, the disease gets better if the field water is dried. In the initial stage, the affected paddy is picked up and re-planted. If required fungicides such as: copper oxychloride (0.4%) 1 ml / l. Apply mixed with water at a rate. Do not collect seeds from the affected field. Make arrangements for drainage of ground water. Cultivate clean. Cultivate the land with a plow, dry it and burn it in the plowed land"
+        ]
+      },
+      {
+        "tag" : "blast",
+        "patterns" : [
+          "Blast disease attacks rice leaves, nodules, stems or branches and seeds. Infected leaves have light gray or bluish wet spots. Gradually it grows to a medium gray or white color and the edges turn brown. The spots are elongated, much like the eyes. When the spots come together, the whole leaf dies. When the knot is infected, it rots and darkens and breaks easily. The root of the rhyme or syllable is affected. The affected part may turn black and break which is called vertebral blast. High levels of nitrogen fertilizers and air humidity increase the incidence of this disease. In addition, cold at night, hot during the day and dew in the morning increases the incidence of this disease. If the attack of this disease is widespread in the field, it is like burning",
+          "At first very small oval spots appear on the leaf blade. The middle part of the scar is wide and the two limbs are narrow so that the scar looks like a lot of eyes. Invasion prone rice leaves may die. But small brown spots like Alpin's head in the leaves of resistant varieties may be mistaken for brown spot disease. Blast disease of rice plants can also attack the stem knots. The knot rots and darkens and breaks easily. The base of the rhyme or syllable is attacked. Akran- The part can be darkened and broken which is called vertebral blast. High levels of nitrogen fertilizers and air humidity increase the incidence of this disease. In addition, cold at night, hot during the day and dew in the morning increases the incidence of this disease. If the attack of this disease is widespread in the field, it is like burning",
+          "rice blast",
+          "blast",
+          "how to prevent blast",
+          "protecting blast from rice",
+          "tell me how to prevent blast disease",
+          "Initial symptoms appear as white to gray-green lesions or spots, with dark green borders. Older lesions on the leaves are elliptical or spindle-shaped and whitish to gray centers with red to brownish or necrotic border",
+          "Someday Resemble Diamond Snake, Wide In Tea Center And Pintered Toward That Ends. Lessons Can Enlarge and Colessea, Growing Together, To Kill T Entire Lives",
+          "Leaf blast lesions are usually elongated and pointed at each end",
+          "The disease attacks three parts of the rice plant namely- leaves, stems and sheaf. At first small oval spots are formed on the leaves which then lengthen at both ends and look like eyes. The edges around the stain are dark brown in color and the center is washed with white ash. Many spots can blend together and cover the leaves. The disease affects the gut of the stem in the crop and black spots appear. When the attack is high, the stem breaks. In the same way, in the case of milk, rot can occur at the beginning of the sheaf, the sheaf breaks and the paddy becomes sticky",
+          "The leaves, stems and apex are affected. At first, ovate spots appear on the leaves, the two ends of which become elongated and form eye-shaped. The center of the spot is gray in color and the outer edge is dark brown. If too many spots come together, the leaf may die. Outbreaks appear to be exacerbated during cold nights, hot days and dew"
+        ],
+        "responses" : [
+          "In the early stages of the disease, apply 5 kg of potash fertilizer per bigha (33rd century). Moreover, Tebuconazole + Trifloxistrobin fungicide (e.g. 5 g Nativo) should be mixed in 10 liters of water and sprayed 2-3 times every 5 centuries for 10-12 days",
+          "Collecting seeds from disease free land. Apply urea fertilizer in balanced doses. Keep water on the land at all times. Cultivation of Blast Resistant Varieties BR3, BR5, BR14, BR15, BR18, BR25, BR28, Bridhan 28, Bridhan 32, Bridhan 33, Bri Dhan 44 and Bri Dhan 45",
+          "Use good seeds. Use resistant varieties like BR 15,16,23,25, and Bridhan-26,33. Keep the seedbed or soil wet. Use less urea and more potash fertilizer. Seed treatment such as Proveba Vitaflow 200 (2.5-3 g / kg seed). In case of disease, use fungicides like Edifen 0.2%, Homai 0.2%, Carbendazim 0.1% (Bavistin / Autostine) or Kupravit 0.4% or Nativo 0.4% or Trooper 0.45. Spray condition",
+          "1. Keep water in the land at all times. 2. If the disease occurs in Kushi condition, irrigate by applying 5 kg potash fertilizer per bigha. 3. Per liter of water (Tebuconazole 50% + Trifluxitrobin 25%) mixed with national fungicide such as: Nativo 75WP 0.80 gm and sprayed in the afternoon. Or Tricyclazol group fungicide per liter of water such as: Troper 75 WP or Jill 65 WP 0.81 gm or other fungicides approved for this disease in the approved dose and sprayed in the afternoon"
+        ]
+      },
+      {
+        "tag" : "sheath_blight",
+        "patterns" : [
+          "In the initial stage, water-soaked light green spots appear on the surface of the water. These oval or spherical spots are about 1 cm long and as they get bigger the spots can grow up to 2-3 cm. A few spots later merge together. Variations in the boundaries and colors of each spot highlight the characteristics of an affected area. Then there are spots on the affected shell. In favorable and humid environments, the leaves near the affected stems may also be affected. Usually the symptoms of the disease are obvious from flowering to ripening of rice. Affected land sometimes feels like burning. When the incidence of the disease is high, the rice becomes sticky",
+          "oval or ellipsoidal greenish gray lesions,  on the leaf sheath, initially just above the soil or water level in the case of conventionally flooded rice. Under favorable conditions, these initial lesions multiply and expand to the upper part of the sheaths, the leaves, and then spread to neighboring tillers belonging to different hills transplanted rice or plants direct-seeded rice. lesions on the leaves usually have irregular lesions, often with gray-white centers and brown margins as they grow older. In subtropical environments, the disease is mostly initiated by sclerotia up to two million of which can be produced per square meter in a diseased crop",
+          "At the time of germination, the first small round or elongated gray water-like spots appear and gradually grow upwards and spread all over the shells and leaves. The spots are brown in center and dark brown in circumference. In this case, the shell looks a bit like a snake's skin. If urea fertilizer is given more, if the weather is hot and humid and the disease germs are in the soil, the disease will be cured",
+          "rice sheath blight",
+          "how to control rice sheath blight disease",
+          "sheath blight",
+          "ways of protecting rice or paddy field from sheath blight"
+        ],
+        "responses" : [
+          "Disease tolerant varieties like BR 10, BR 22, BR 23, Bri Dhan 31 and Bri Dhan 32 can be cultivated. Cultivate clean. Cultivate the land with a plow, dry it and burn it in the plowed land.Use urea, TSP and potash fertilizers evenly. Seedlings should be planted at the right distance according to the variety of rice (but 25x20 cm distance is best). Good results are obtained by giving 5 kg potash per bigha in two installments every 15 days after seeing the disease. If necessary apply fungicides like folicur and contaf at the rate of 500 ml / ha. In case of disease, watering and drying should be done periodically",
+          "use a reasonable level of fertilizer adapted to the cropping season. use reasoned density of crop establishment (direct seeding or transplanting). Carefully control of weeds, especially on the levees. drain rice fields relatively early in the cropping season to reduce sheath blight epidemics. use fungicide to treat seeds. improve canopy architecture by reducing seeding rate or providing wider plant spacing",
+          "Use of disease resistant varieties like BR-10, 22, 23, and Brie-rice 29, 32, 39, 41. Burning of field stubble after harvesting. Apply balanced dose of fertilizer and apply urea in 2-3 installments. In case of disease, after irrigating the land for 8-10 days, irrigate it again. Seedlings planted a little away. (20/20 cm). Use of potash fertilizer (if required apply topically). Use fungicides if necessary. Per liter of water 1 ml of Folifur, 1 ml of Propecanazol (Tilt 250 EC) or Contaf 5 EC or Score, 1 g of Carbendazim (Bavistin), Nativo 0.4 g of Nastar 1 ml, Opal 2.5 ml",
+          "1. Good results are obtained by giving 5 kg potash per bigha in two installments every 15 days after seeing the disease. 2. If the disease occurs, the incidence of the disease decreases if the field is watered and the field is dried. 3. In case of high incidence of fungicides of Tebuconazole group such as: Folicur 1 ml or Nativo 0.5 g or fungicides of Carbendazim group such as: Mcozyme 50 WP 1 g or Noin 50 WP 2 g or fungicides of Hexaconazole group such as: Contaf 5 Milli or Amister Top mixed in 1 ml per liter of water and sprayed. Or apply an approved dose of fungicide approved under another name for this disease"
+        ]
+      },
+      {
+        "tag" : "false_smut",
+        "patterns" : [
+          "Laxmi gu or bhuyajhul disease is seen during paddy ripening. The fungus attacks the rice at the beginning of ripening and destroys the growing rice, forming large pods. The inside of the bead is yellowish orange and the outer layer is green or black. The young beads can grow up to 1 cm and larger when mature. Chlamydospores are not easily extracted from beads due to the presence of a sticky substance",
+          "rice false smut",
+          "how to prevent false smut from rice or paddy field",
+          "false smut",
+          "tell me the treatment of false smut",
+          "ways of protecting rice from false smut",
+          "The fungus attacks the rice at the beginning of ripening and destroys the growing rice, forming large pods. The inside of the bead is yellowish orange and the outer layer is green or black. Usually no more than a few grains of rice are seen to be attacked in any sheaf",
+          "Plants infected with false smut have individual rice grain transformed into a mass of spore balls. These spore balls are initially orange, and then turn into greenish black when these mature",
+          "Individual rice grain transformed into a mass of velvety spores or yellow fruiting bodies. Growth of velvety spores enclose floral parts. Immature spores slightly flattened, smooth, yellow, and covered by a membrane. Growth of spores result to broken membrane. Mature spores orange and turn yellowish green or greenish black. Only a few grains in a panicle are usually infected and the rest are normal",
+          "It carries seeds. The disease is spread by air. This disease can be seen from the stage of milk to the time of ripening of rice. The fungus looks like a greenish golden ball. The disease is more prevalent in thin and slender aman paddy",
+          "tell me how to prevent false smut in rice plant"
+        ],
+        "responses" : [
+          "The best way to control the disease is to remove the infected tree or sheaf. This disease can be controlled by seed treatment as before. The disease can be controlled by collecting seeds from healthy trees and sowing them in the next season",
+          "At the onset of infestation Carbendazim fungicide (e.g. Amcozyme 20 gm) should be mixed in 10 liters of water and sprayed 2-3 times every 5 centuries for 12-15 days",
+          "Keep the field clean. Remove infected seeds, panicles, and plant debris after harvest. Reduce humidity levels through alternate wetting and drying (AWD) rather than permanently flooding the fields. Where possible, perform conservation tillage and continuous rice cropping. Use moderate rates of Nitrogen.Use certified seeds.Resistant varieties have been reported. Contact your local agriculture office for an up-to-date list of available varieties. Treat seeds at 52 ° C for 10 min",
+          "Collect seeds from healthy plants and use in next season. Use of disease resistant varieties. Use fungicides such as Kupravit (0.4%), Propiconazole (Tilt 250 EC 0.1%), Bavistin (0.1%) during head removal"
+        ]
+      },
+      {
+        "tag" : "brown_spot",
+        "patterns" : [
+          "The most obvious symptoms of this disease are seen in leaves and seed husks. At first the characteristic spots on the leaves are oval in shape and resemble sesame seeds in shape and size. The spots are almost identical in shape and can be seen evenly across all parts of the leaf. Most of the spots have light brown edges. The spots are large and not as long as the thin brown spots. Most of the centers of blast spots are gray or white. Most of the centers of brown spot disease are brown in color. The disease is more prevalent in sandy soils and soils where nitrogen and potash fertilizers are low",
+          "At first small brown spots appear on the leaves. The spots gradually grow into sesame seeds. The middle part of the spot is light brown in color. Yellow tinge is often seen around the spots. When the seeds are infected, light to dark brown spots are seen. In most cases, the grains are small. However, when the attack is severe in favorable weather, the whole seed turns brown and even brown spots appear on the rice. Lack of organic matter in the soil, use of diseased seeds and lack of nitrogen, potash, zinc and water in the soil",
+          "Infected seedlings have small, circular, yellowish brown or brown lesions that may girdle the coleoptile and distort primary and secondary leaves. Starting at the tillering stage, lesions can be observed on the leaves. They are initially small, circular, and dark brown to purple-brown. Fully developed lesions are circular to oval with a light brown to gray center, surrounded by a reddish brown margin caused by the toxin produced by the fungi",
+          "spots are circular, brownish, and have a gray center surrounded by a reddish margin",
+          "It is a seed borne disease. The disease attacks leaves, seeds and growing stems. The leaves have small brown spots according to oval shape. The spots gradually spread to the leaves. If the attack is more, the sheaf is also attacked",
+          "rice brown spot",
+          "brown spot",
+          "tell me how to protect rice plant from brown spot",
+          "protecting rice leaf from brown spot",
+          "seeing brown spot on the leaf. what to do?",
+          "The leaves first have small brown spots like sesame seeds. The center of the growing spherical spots is often white and the edges are brown. Multiple spots can cause large spots and the whole leaf may become full of spots and the tree may die"
+        ],
+        "responses" : [
+          "If there is a shortage of potash, zinc etc. in the land, it should be filled. Use balanced doses of fertilizer. Collect seeds from healthy tree. Purification of seeds by a fungicide containing an effective ingredient called thiophanate methyl. Always keep the seedbed or soil wet or damp. Apply organic manure to the land",
+          "Keep the seedbed or soil wet with water. Use more organic fertilizers. Use balanced doses of fertilizer. Spray the soil with 60 g of potash fertilizer and 60 g of sulfur (80%) in every 10 liters of water",
+          "Burning stubble after harvest. Using healthy seeds. Seed purification in hot water or seed treatment with Proveba Vitaflow 200 (2.5-3 g / kg seed). Use of disease resistant varieties. Keep the seedbed or soil wet at all times. Adequate use of urea and potash in the soil does not increase the disease",
+          "Moderate irrigation of seedbed or land. Apply adequate amount of nitrogen and potash fertilizer in the soil. If urea is applied in moderation, the disease will not increase. In case of high incidence of fungicides of Carbendazim group such as: Mcozyme 50 WP 1 gm or Noin 50 WP 2 gm or Hexaconazole group of fungicides like: Contaf 5 EC or Sabab 5 EC mixed at the rate of 1 ml per liter of water. Or spray the approved dose of fungicide approved under another name of this group"
+        ]
+      },
+      {
+        "tag" : "stem_rot",
+        "patterns" : [
+          "Panicle or Sheath invades the outer shell along the surface of the ground water and causes disease. At first the outer shell of the tree becomes dark, irregular spots and gradually grows. Later the fungus gets inside the trunk of the tree and rots. As a result, when the tree is tilted, it breaks down and the paddy becomes sticky and malnourished",
+          "stem rot",
+          "how to prevent stem rot",
+          "tell me how to control or prevent stem rot in rice plant or paddy field",
+          "rice stem rot disease",
+          "Kushi or panicle invades the outer shell along the surface of the ground water and causes disease. At first the outer shell of the tree becomes dark, irregular spots and gradually grows. Later the fungus gets inside the trunk of the tree and rots. As a result, when the tree is tilted, it breaks down and the paddy becomes sticky and malnourished",
+          "visible numerous tiny white and black sclerotia and mycelium inside the infected culms. infected culm lodges and caused unfilled panicles and chalky grain",
+          "This disease is usually seen in the field at the last stage of Kushi or panicle germination. Disease germs live in the soil. The disease germs attack the stems by irrigation water. At first, small rectangular black spots can be seen when the exterior of Kushi opens. Later this stain opens inside and enters the trunk. As the stems rot, the trees fall down and as a result the paddy becomes sticky and malnourished",
+          "The leaf covering the apex is covered with round spots. The center of the spot is gray and the edges are brown. The spots grow together and spread all over the shell. When the infestation is high, the sheaf covers open and rot and the rhyme comes out partially so that there is less nutritious rice",
+          "stem rot disease treatment"
+        ],
+        "responses" : [
+          "Dry the land and burn it. Occasionally water is removed from the planted land to dry the land. Do not plant seedlings densely. Use balanced fertilizer. Cultivation of some tolerant varieties of this disease such as BR 11, BR 14, BR 29, Bridhan 30, Bridhan 31, Bridhan 40, Bridhan 42, Bridhan 44, Bridhan 45, Bridhan 48, Bridhan 48 etc. Apply 2.25 kg / ha of fungicide containing thiophanate methyl in 500 liters of water per hectare",
+          "Mix thiophenate methyl fungicide (Topsin M60WP) 20 gm in 10 liters of water and spray every 10-15 days",
+          "Use resistant varieties. In case of disease, water of the land is dried and then re-watered. Use less urea and more potash fertilizer in the land. After plowing the land and cutting the straw paddy, it is burnt in the land. If necessary, use fungicide Kupravit (0.4%), Companion (0.2%)",
+          "1. In case of disease, watering and drying the field periodically. . 2. If necessary, fungicides of Tebuconazole group such as: Folicur 1 ml / l. Or hexaconazole group fungicides such as: Contaf 1 ml / l. Or propiconazole such as: Tilt 1 ml / l. Apply mixed with water at a rate."
+        ]
+      },
+      {
+        "tag" : "sheath_rot",
+        "patterns" : [
+          "At the last stage of threshing in the paddy plant and above all the shell. the shell which covers the sheaf is opened.The center may be gray and the edges brown or the spot may be grayish brown. The spots grow together and can spread to the entire opening. If the attack is high, the sheaf or rhyme comes out partially. The shell-covered shell rots and white fungus is occasionally seen on the shell. A very small number of paddy is nourished in the partially germinated sheaf",
+          "The center may be gray and the edges brown or the spot may be grayish brown. The spots grow together and can spread to the entire opening. If the attack is high, the sheaf or rhyme comes out partially. The shell-covered shell rots and white fungus is occasionally seen on the shell. A very small number of paddy is nourished in the partially germinated sheaf",
+          "sheath rot",
+          "rice sheath rot",
+          "sheath rot disease",
+          "tell me how to prevent sheath rot disease from rice plant",
+          "ways of protecting paddy field from sheath rot disease",
+          "The typical sheath rot lesion starts at the uppermost leaf sheath enclosing the young panicles. It appears oblong or as irregular spot with dark reddish, brown margins, and gray center or brownish gray throughout",
+          "Usually several spots are observed and these spots enlarge and combine or grow together and can cover most of the leaf sheath. Panicles remain within the sheath or may partially emerge. Affected leaf sheaths may have abundant whitish powdery fungal growth visible on the outer surface. Panicles that have not emerged rot and the florets turn red-brown to dark brown",
+          "lesions developing on the uppermost leaf sheaths that enclose the panicles,partially emerged or un-emerged panicles,rotting of the sheath, development of whitish powdery fungal growth on infected leaf sheaths, unexserted panicles",
+          "This disease is usually seen in the open stage when the dig leaves of the rice plant. At first it opens with small brown spots of various sizes. The spots gradually grow together and spread all over the shell. In this condition, if the sheaf comes out, then the paddy is chewed and malnourished. Many times the top half may come out or may not come out at once",
+          "The leaf covering the apex is covered with round spots. The center of the spot is gray and the edges are brown. The spots grow together and spread all over the shell. When the infestation is high, the sheaf covers open and rots and the rhyme comes out partially so that there is less quantity of nutritious paddy"
+        ],
+        "responses" : [
+          "Using healthy seeds. The straw is burned on the ground. Keep the use of urea fertilizer moderate. Purify the seeds",
+          "Propiconazole fungicide (such as Tilt 20 ml) should be mixed in 10 liters of water and sprayed 2-3 times every 5 centuries for 10-12 days",
+          "Use resistant varieties. Use less urea fertilizer in the land. In case of disease, dry the water of the land and give irrigation water again after a few days. Use the required fungicides such as: 1 ml propiconazole (Tilt 250 EC) or Nativo, or Kantaf per liter of water - sprayed at this rate",
+          "1. In case of disease, watering and drying the field periodically. . 2. If necessary, fungicides of Tebuconazole group such as: Folicur 1 ml / l. Or hexaconazole group fungicides such as: Contaf 1 ml / l. Or propiconazole such as: Tilt 1 ml / l. Apply mixed with water at a rate"
+        ]
+      },
+      {
+        "tag" : "leaf_scald",
+        "patterns" : [
+          "Leaf scald is a seed-borne disease. Symptoms of this disease are usually seen on the tips of old leaves. Occasionally in the middle of the leaf or on the edge . The spots look a lot like water impressions and when they grow up they look like an oval or rectangular and olive color. Dark brown broad lines and light brown lines line the inside of the spots. It looks like a sack that encloses with a drawstring. In more attacks the leaves become dry and straw-like in color and the edges of the spots look like light brown areas. Continuous growth of spots can spread throughout the leaf",
+          "leaf scald",
+          "rice leaf scald disease",
+          "how to prevent leaf scald disease from rice or paddy field",
+          "zonate lesions of alternating light tan and dark brown starting from leaf tips or edges .oblong lesions with light brown halos in mature leaves. translucent leaf tips and margins",
+          "Water-sucking spots appear on the tips or edges of the leaves or in the middle of many times. The spots gradually become larger and more rectangular or oval in shape and more olive in color. Inside the spots are zebra-like striped dark brown broad and light brown lines one after the other. In more attacks the leaves are like dry straw"
+        ],
+        "responses" : [
+          "Using healthy seeds. Use moderate amount of urea fertilizer. Seed purification. Burned in the ground",
+          "Apply sulfur fungicide (e.g. Cumulus 40 gm or Givevet or Monovit 20 gm) in 10 liters of water and apply 2-3 times from the beginning of attack for 10 consecutive days",
+          "Keep the land free from weeds. Use moderate urea fertilizer. In case of severe infestation apply sulfur fungicide (eg: thiovit) at the rate of 1 kg / acre. Do not collect seeds from the affected field. Purify the seeds with Carbendazim group medicine. For every kg of seeds, soak 3 gms in one liter of water and soak overnight. Cultivate clean. Cultivate the land with a plow, dry it and burn it in the plowed land. Use balanced amounts of urea, TSP and potash fertilizers. Seedlings should be planted at the right distance according to the variety of rice (but 25x20 cm distance is best).",
+          "Test : If the infected leaves are cut and soaked in clear water for 5-10 minutes, if pus or milky substance comes out from the cut part, then it should be understood that it is a bacterial leaf blight disease and if nothing comes out, it is a leaf blister disease"
+        ]
+      },
+      {
+        "tag" : "narrow_brown_leaf_spot",
+        "patterns" : [
+          "In the attack of this disease, small thin and vertical brown spots appear on the leaves. The spots are parallel to the leaf veins. The disease also occurs on seed stalks and rice seeds",
+          "The brown spots are reddish brown and the edges of the spots are light in color",
+          "rice narrow brown leaf spot",
+          "narrow brown spot",
+          "prevent narrow brown spot from the rice field",
+          "ways of protecting paddy from narrow brown spot",
+          "The leaves have small, slender and slender long brown spots",
+          "The long spots are parallel to the leaf veins",
+          "The spots on the invasive varieties of paddy are relatively thick and light brown in color. The center of the stain is light colored and narrow",
+          "Typical lesions on leaves and upper leaf sheath are light to dark brown, linear, and progress parallel to the vein. Lesions on the leaves of highly susceptible varieties may enlarge and connect together, forming brown linear necrotic regions. On glumes, lesions are usually shorter but can be wider than those on the leaves. Brown lesions are also found on pedicels.The disease also causes discoloration on the leaf sheath, referred to as net blotch because of the netlike pattern of brown and light brown to yellow areas"
+        ],
+        "responses" : [
+          "Cut the crop and burn it. Collecting and sowing healthy seeds. Purification with Proveba Vitaflow 200 (2.5-3 g / kg seed) before sowing per kg seed. Use balanced fertilizer. Use of disease resistant varieties"
+        ]
+      },
+      {
+        "tag" : "tungro",
+        "patterns" : [
+          "Green leafhoppers spread tungro disease. The first attack started in the seedbed. Green leafhoppers transmit the virus to seedbed seedlings. Shortly after planting these seedlings, the initial symptoms of the disease appear. In many cases yellow seedlings can be seen in the seedbed of Tungro attack. If there are carrier insects in the field during the period of Kushi or sheath growth after planting, the symptoms appear on the new trees. Therefore, green leafhoppers should be suppressed as soon as they appear in the seedbed and in the stage of kushi or panicle growth. The special symptom of Tungro disease is that not all the trees in the field are attacked at once. Rather sporadically some trees turn yellow at first and then die slowly",
+          "The growth of paddy plants is reduced and kushi or panicle is reduced. Infected leaves and leaf sheaths are shortened. The young leaves are stuck in the shell of the old leaves. The new leaves become shorter and wider and twist. Due to these reasons the tree cannot grow. Infected leaves first turn light yellow and then dark yellow to orange. Rice varieties have different leaf colors. No growth between leaves and stems. Infected rice plants can survive to maturity, but if the attack is severe, the plants will wither and die. In these trees the rice husk comes out partially, the grains are black and malnourished. In many cases the symptoms of the disease fade away till the rice matures in the late affected trees. Symptoms of the disease also appear on the stalks of paddy after cutting the infected rice plant",
+          "All the upper leaves of the tree are dark yellow or orange yellow in color. The young leaves are yellow, broad, short or twisted. Tree growth is high and kushi or panicle is low. Infected leaves bend. Multiple leaf stems or shells are stuck together in old leaf shells",
+          "Check for presence of leafhoppers.Check leaves for discoloration.Yellow or orange yellow discoloration is noticeable in tungro infected plants. Discoloration begins from the leaf tip and extends down to the blade or the lower leaf portion. Infected leaves may also show mottled or striped appearance, rust colored spots, and inter veinal necrosis",
+          "The onset of the disease in seedlings. Infected leaves show light green or light yellow lines along the longitudinal veins. Gradually it spreads and full leafy yellow short trees are seen. Scattered orange-yellow or yellow short trees can be seen in the land. The presence of carrier insect green leaf hopper in the field is observed. The roots of the affected tree become weak and the tree grows easily when pulled",
+          "rice tungro disease",
+          "tell me how to prevent tungro from paddy field"
+        ],
+        "responses" : [
+          "Cultivation of disease tolerant varieties like BR22, BR23, Bridhan 28, Bridhan 31 and Bridhan 41 etc. Green leafhoppers should be controlled by hand netting or by applying approved pesticides. Green leafhoppers can be killed using light traps. Seedlings should be sown in the vicinity of Tungro affected land, cover grass and paddy should be destroyed",
+          "Seedlings should be sown in the vicinity of Tungro infested land, cover grass and paddy should be destroyed. To control carrier insects, mix Isoprocarb insecticide (such as Mipsin or Sapsin 30 gm) in 10 liters of water and spray 2-3 times in the afternoon for 10 days",
+          "Use of disease resistant rice varieties such as: BR-10,11,14,16,20,22 and Bridhan-24,37,37,39,41. When diseased trees are seen, they are uprooted and burnt. Clear grass and other weeds around the field. Apply approved pesticides such as Diazinon 2 ml, Sumithion-2 ml Dimethoate (Ruger) 2 ml, Malathion-2 ml Metasystox-2 if 40-50 green leaf moths are found per 100 nets in the seedbed or in the soil"
+        ]
+      },
+      {
+        "tag" : "ufra",
+        "patterns" : [
+          "These worms, carried by water and soil, attack the upper part of the plant. This worm absorbs the sap of the young part of the leaves of the rice plant, so that at first it looks like a white spot on the base of the leaf. The white spots gradually turn brown and later the spots grow and dry out the whole leaf. Most of the scattering is twisted and the paddy is chewed",
+          "This worm absorbs the sap of the young part of the leaves of the rice plant, so that at first it looks like a white spot on the base of the leaf. The white spots gradually turn brown and later the spots grow and dry out the whole leaf. Most of the scattering is twisted and the paddy is chewed. Some rhymes do not come out at all. The germs of this disease travel from one land to another with the flow of water. This is especially the case with jali aman paddy",
+          "rice ufra",
+          "ufra",
+           "rice urfa disease",
+           "how to prevent urfa disease",
+           "ways to protect rice or paddy field from ufra",
+           "It consists of soil, diseased stalks and stalks. This worm absorbs the sap of the young part of the agar of the rice plant, so that it appears as a white spot on the base of the first leaf,  at the junction of leaf and shell. The white spots gradually turn brown and later the spots grow and dry out the whole leaf. As a result, many times the thora or rhyme cannot come out or the rhyme is in a twisted or twisted state inside",
+           "tell me how to control rice ufra"
+        ],
+        "responses" : [
+          "At the end of the season, the land and stubble should be dried by cultivation. It must be burned in the ground. The disease is less when Jolly Aman paddy is sown late. Crops other than paddy should be harvested at the grain stage. If the attack starts at an early stage, the tip can be cut off. If the disease occurs in seedbed and root system, good results are obtained by spraying Furadan or Kurata at the rate of 2.5-3.0 kg per bigha",
+          "Apply Carbofuran pesticides (e.g. Furadan 5 g, 2 kg per bigha / 33 percent) and then weed and finally thin the plant",
+          "After harvesting, burn the affected field stubble. Cultivation of other crops in that land except paddy. Use resistant varieties. Do not water the affected field to another field. Where it is possible to cultivate the land after the first rains of the year and leave it for 15-20 days (worms die when the soil dries out)"
+        ]
+      },
+      {
+        "tag" : "bakanae",
+        "patterns" : [
+          "bakanae disease",
+          "ways to protect rice or paddy from bakanae disease",
+          "tell me how to prevent rice from bakanae disease",
+          "Infected seedlings are about twice as long as normal seedlings and the leaves of infected seedlings turn yellowish green",
+          "Their pale green leaves can be seen on top of other trees and ectopic roots can also be seen knotted at the bottom. If the infected trees survive in any way, then they are chewing paddy",
+          "Check the seedbed for unhealthy looking seedlings. Infected seedlings have lesions on roots, and can die before transplanting or immediately after. Check for abnormal plants. Infected plants are several inches taller than normal plants. They are also thin, with yellowish green and pale green leaves. Check for white powdery growth at the base or on the lower portion of the infected plants. Check for roots growing from above ground nodes on the stem",
+          "There are two types of symptoms. When the roots rot, they rot at the beginning, the roots do not grow, as a result the tree becomes weak. The tree is short and white or pink fungus is seen at the base of the tree. In case of bakni, the tree is two or three times longer and narrower than other trees. Git is on the trunk of the tree. Yield is not"
+        ],
+        "responses" : [
+          "Soak the seeds overnight in 3 g 1 liter of water with fungicide Bavistin or Noin. The same land should not be used for seedbeds. Infected trees are burned. Cultivation of some resistant rice varieties like BR 14, Bridhan 18, Bridhan 42, Bridhan 44 and Bridhan 45. Keep the seedbed moist or moist",
+          "Keep the seedbed moist or moist. Infected trees are burned. If the seedling field is affected, drain the water of the affected land",
+          "Use seeds from healthy strong and disease free plants and keep water in the seedbed. Infected trees are picked up and destroyed as soon as they are seen. Using rice varieties like BR-3, BR-4, BR-10, BR-11 etc. Prior to sowing the seeds should be treated with 3 gms of Homai or Benlet or 2 gms of Bavistin per kg of seeds"
+        ]
+      }
+    ]
+  }
