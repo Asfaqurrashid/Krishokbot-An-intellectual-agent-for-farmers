@@ -5,7 +5,6 @@
 
 
 from flask import Flask, render_template, jsonify, request
-import import_ipynb
 import chatbot_response
 
 
