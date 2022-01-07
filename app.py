@@ -21,7 +21,7 @@ def index():
 def chatbotResponse():
 
     if request.method == 'POST':
-        the_question = request.form.get('question')
+        the_question = request.form['question']
 
         response = chatbot_response.chatbot_response(the_question)
 
