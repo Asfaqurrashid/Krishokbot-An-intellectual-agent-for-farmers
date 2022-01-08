@@ -9,12 +9,12 @@ import nltk
 import json
 import random
 from nltk.stem import WordNetLemmatizer
+nltk.download('punkt')
 lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 import tensorflow as tf
 from tensorflow.keras.models import load_model
-
 
 # In[6]:
 
