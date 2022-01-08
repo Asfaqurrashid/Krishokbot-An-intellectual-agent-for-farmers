@@ -1,11 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[13]:
-
 
 import nltk
 from nltk.stem import WordNetLemmatizer
+nltk.download('punkt')
 lemmatizer = WordNetLemmatizer()
 from nltk.corpus import stopwords
 import json
@@ -16,7 +12,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 import random
-
+from absl import logging
 
 # In[14]:
 
@@ -28,8 +24,6 @@ ignore_words = ['?', '!']
 data_file = open('intents.json', encoding = 'utf8').read()
 intents = json.loads(data_file)
 
-
-# In[15]:
 
 
 for intent in intents['intents']:
