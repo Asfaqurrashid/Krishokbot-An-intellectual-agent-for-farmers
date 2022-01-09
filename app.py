@@ -15,15 +15,15 @@ app = Flask(__name__)
 
 @app.route('/', methods=["GET", "POST"])
 def index():
-    return render_template('index.html', **locals())
+    return "hello_world"
 
 @app.route('/chatbot', methods=["GET", "POST"])
 def chatbotResponse():
 
     if request.method == 'POST':
-        the_question = request.form.get('question')
+        question = request.args.get('question')
 
-        response = chatbot_response.chatbot_response(the_question)
+        response = chatbot_response.chatbot_response(question)
 
     return jsonify({"response": response })
 
