@@ -17,7 +17,7 @@ app = Flask(__name__)
 def index():
     return "hello_world"
 
-@app.route('/chatbot', methods=["GET", "POST"])
+@app.route('/chatbot', methods=["GET","POST"])
 def chatbotResponse():
 
     if request.method == 'POST':
@@ -25,7 +25,7 @@ def chatbotResponse():
 
         response = chatbot_response.chatbot_response(question)
 
-    return jsonify({"response": response })
+    return jsonify({"response": str(response) })
 
 if __name__ == '__main__':
     app.run()
