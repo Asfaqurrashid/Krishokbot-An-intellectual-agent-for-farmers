@@ -13,10 +13,10 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return "hello_world"
-
+    
 @app.route('/chatbot', methods=['POST'])
 def chatbotResponse():
-    question = request.form.get['question']
+    question = request.args.get('question')
     response = chatbot_response.chatbot_response(question)
     return jsonify({"response": str(response)})
 
