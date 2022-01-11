@@ -8,9 +8,6 @@ from flask import Flask, render_template, jsonify, request
 import chatbot_response
 
 
-# In[ ]:
-
-
 app = Flask(__name__)
 
 @app.route('/')
@@ -19,7 +16,7 @@ def index():
 
 @app.route('/chatbot', methods=['POST'])
 def chatbotResponse():
-    question = request.args.get('question')
+    question = request.form['question']
     response = chatbot_response.chatbot_response(question)
     return jsonify({"response": str(response)})
 
