@@ -7,6 +7,7 @@
 from flask import Flask, render_template, jsonify, request
 import chatbot_response
 import re
+import json
 
 
 app = Flask(__name__)
@@ -17,8 +18,8 @@ def index():
     
 @app.route('/chatbot', methods=["POST"])
 def chatbotResponse():
-    question = str(request.args.get("question"))
-    res = str(question)
+    question = request.get_json().get("question")
+    res = question
     response = chatbot_response.chatbot_response(question)
     return jsonify({"response": str(res)})
 
