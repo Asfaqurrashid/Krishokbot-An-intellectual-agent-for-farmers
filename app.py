@@ -19,7 +19,7 @@ def index():
 @app.route('/chatbot', methods=["POST"])
 def chatbotResponse():
     question = request.get_json().get("question")
-    res = question
+    res = str(question)
     response = chatbot_response.chatbot_response(question)
     return jsonify({"response": str(res)})
 
