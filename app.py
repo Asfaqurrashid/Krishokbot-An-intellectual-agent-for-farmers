@@ -21,7 +21,7 @@ def chatbotResponse():
     question = request.json['question']
     res = str(question)
     response = chatbot_response.chatbot_response(res)
-    return jsonify({"response": str(response)})
+    return jsonify({"response": str(res)})
 
 if __name__ == '__main__':
     app.run()
