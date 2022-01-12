@@ -15,4 +15,3 @@ jupyter==1.0.0
 nltk==3.6.5
 numpy==1.21.2 
 tensorflow-cpu>=2.3.0
-requests==1.2.0
