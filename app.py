@@ -18,9 +18,9 @@ def index():
     
 @app.route('/chatbot', methods=["POST"])
 def chatbotResponse():
-    question = json.loads(request.data)
+    question = json.loads(request.body.decode("utf-8"))
     res = question['question']
-    response = chatbot_response.chatbot_response(question)
+    response = chatbot_response.chatbot_response(res)
     return jsonify({"response": str(res)})
 
 if __name__ == '__main__':
