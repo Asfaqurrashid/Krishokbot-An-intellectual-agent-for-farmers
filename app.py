@@ -23,7 +23,7 @@ def chatbotResponse():
     question = request.json['question']
     question = translator.translate(question, dest = 'en')
     response = chatbot_response.chatbot_response(question.text)
-    response = translator.translate(response, dest = 'bn')
+    response = translator.translate(response.text, dest = 'bn')
     return jsonify({"response": str(response.text)})
 
 if __name__ == '__main__':
