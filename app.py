@@ -24,9 +24,8 @@ def chatbotResponse():
     q1 = translator.translate(question, dest = 'en')
     q2 = q1.text
     r1 = chatbot_response.chatbot_response(q2)
-    r2 = r1.text
-    r3 = translator.translate(r2, dest = 'bn')
-    response = r3.text
+    r2 = translator.translate(r1, dest = 'bn')
+    response = r2.text
     return jsonify({"response": str(response)})
 
 if __name__ == '__main__':
