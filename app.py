@@ -21,10 +21,13 @@ def index():
 def chatbotResponse():
     translator = Translator()
     question = request.json['question']
-    question = translator.translate(question, dest = 'en')
-    response = chatbot_response.chatbot_response(question.text)
-    response = translator.translate(response.text, dest = 'bn')
-    return jsonify({"response": str(response.text)})
+    q1 = translator.translate(question, dest = 'en')
+    q2 = q1.text
+    r1 = chatbot_response.chatbot_response(q2)
+    r2 = r1.text
+    r3 = translator.translate(r2, dest = 'bn')
+    response = r3.text
+    return jsonify({"response": str(response)})
 
 if __name__ == '__main__':
     app.run()
