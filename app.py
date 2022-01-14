@@ -10,7 +10,7 @@ import re
 import json
 from googletrans import Translator
 
-translator = Translator()
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -19,12 +19,12 @@ def index():
     
 @app.route('/chatbot', methods=["POST"])
 def chatbotResponse():
+    translator = Translator()
     question = request.json['question']
-    question = str(question)
-    question = translator.translate(str(question), dest = 'en')
-    # response = chatbot_response.chatbot_response(str(question.text))
-    # response = translator.translate(str(response), dest = 'bn')
-    return jsonify({"response": str(question.text)})
+    question = translator.translate(question, dest = 'en')
+    response = chatbot_response.chatbot_response(question.text)
+    response = translator.translate(response, dest = 'bn')
+    return jsonify({"response": str(response.text)})
 
 if __name__ == '__main__':
     app.run()
