@@ -20,11 +20,12 @@ def index():
 @app.route('/chatbot', methods=["POST"])
 def chatbotResponse():
     question = request.json['question']
-    translator = Translator()
-    question = translator.translate(question, dest = 'en')
-    response = chatbot_response.chatbot_response(question.text)
-    response = translator.translate(response, dest = 'bn')
-    return jsonify({"response": str(response.text)})
+    question = str(question)
+    # translator = Translator()
+    # question = translator.translate(question, dest = 'en')
+    # response = chatbot_response.chatbot_response(question.text)
+    # response = translator.translate(response, dest = 'bn')
+    return jsonify({"response": str(question)})
 
 if __name__ == '__main__':
     app.run()
